@@ -1,0 +1,40 @@
+body{
+    background-image: url('images.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: fantasy;
+}
+.stopwatch{
+    background-color: rgb(6, 61, 61);
+    text-align: center;
+    padding: 30px;
+    border-radius: 50px;
+    letter-spacing: 3px;
+}
+#second,#tens{
+    font-size: 40px;
+    color:azure
+}
+button{
+    border-radius: 60%;
+    background-color: skyblue;
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 30px;
+    border: 4px groove rgb(6, 61, 61);
+}
+button:hover{
+    background-color: aquamarine;
+    color:azure;
+}
+h1{
+    font-family: cursive;
+    font-size: 40px;
+    color: aliceblue;
+    text-shadow: 5px 6px 7px rgb(14, 206, 206);
+}
